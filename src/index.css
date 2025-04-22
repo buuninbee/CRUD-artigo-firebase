@@ -1,11 +1,19 @@
 @import "tailwindcss";
 
 :root{
-    --bg-body: #222222;
+    --on-brand: #222222;
     --bg-form: #1E1E1E;
     --bg-receita: #41624A;
     --bg-despesa: #624141;
     --text-default: #FFFFFF;
-    --on-primary-container: #EADDFF;
     --secondary-container: #4A4458;
+    --on-primary-container: #EADDFF;
+    --on-surface: #E6E0E9;
+    --border: #444444;
+    --outline: #938F99;
+}
+
+body{
+    background-color: var(--on-brand);
+    color: var(--text-default);
 }
